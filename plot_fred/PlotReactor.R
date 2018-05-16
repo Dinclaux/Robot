@@ -41,8 +41,8 @@ nb <- 72 # number between 1 and 96
 ### Reading in data and transform it into matrix format   ###
 #############################################################
   
-setwd("~/Labo/Données/Script/plot_fred")
-data = readWorksheetFromFile("donnéestot.xlsx", sheet = "script", header = TRUE )
+setwd("~/Labo/Donn?es/Script/plot_fred")
+data = readWorksheetFromFile("donn?estot.xlsx", sheet = "script", header = TRUE )
 data <- data[c(1:nb),]
 data$Strains<-as.factor(data$Strains)
 if (!is.null(levels(data$Strains))){

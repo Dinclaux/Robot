@@ -1,5 +1,7 @@
-.Rproj.user/
-Robot.Rproj
-plot_fred/secret/
-Sort/secret/
-.Rhistory
+*
+!*/BeberToIconNMR/BeberToIconNMR.R
+!*/Sort/sort_robot_data.R
+!*/Sort/sort_robot_pH_O2.R
+!*/Sort/Example.csv
+!*/plot_fred/donnéestot.xlsx
+!*/plot_fred/PlotReactor.R
